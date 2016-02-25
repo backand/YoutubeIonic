@@ -5,12 +5,13 @@ Based on [Backand Ionic Social](https://github.com/backand/backand-ionic-social)
 
 Project have two parts.
 
-First part is mobile side, based on [Ionic](www.ionicframework.com].
+First part is mobile side, based on [Ionic](www.ionicframework.com).
 It's a youtube search mobile application
 
-[https://www.dropbox.com/s/ey0d2ofog11blol/Screenshot%202016-02-25%2020.00.19.png?raw=1]
+[Mobile Part](https://www.dropbox.com/s/ey0d2ofog11blol/Screenshot%202016-02-25%2020.00.19.png?raw=1)
 
 To run this part you have to install first ionic cli, and on root folder run:
+
 <code>
     ionic serve
 </code>
