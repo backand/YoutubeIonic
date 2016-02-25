@@ -31,5 +31,7 @@ live-serve
 
 
 After you run both parts, you should select a video in your mobile and be able to see it in your desktop.
-You have a youtube remote client very simple and very powerful based on [Backand](https://www.backand.com)
+You have a youtube remote client very simple and very powerful based on [Backand](https://www.backand.com).
+
+
 Important notice: Don't open Backand.com and the application in same browser because we a have cookie issue, that will be solved in Backand sdk version 1.8.3
