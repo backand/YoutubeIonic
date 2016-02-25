@@ -1,9 +1,9 @@
 // Create your app with 'youtube-embed' dependency
 var myApp = angular.module('myApp', ['youtube-embed', 'ngRoute', 'hljs', 'backand']);
 myApp.config(function (BackandProvider) {
-    BackandProvider.setAppName('ionic4');
-    BackandProvider.setSignUpToken('bc585e97-b010-449d-a016-9b55e6a83280');
-    BackandProvider.setAnonymousToken('5bb3247a-52ec-4777-bd95-a908b808cd5b');
+BackandProvider.setAppName('ionic6');
+      BackandProvider.setSignUpToken('5d321418-f96b-4dfb-a91b-d6bb2be59ce7');
+      BackandProvider.setAnonymousToken('89d2cc59-b927-457a-bcba-290d8d7395f9');
     BackandProvider.runSocket(true); //enable the web sockets that makes the database realtime
 
 });
@@ -31,7 +31,7 @@ myApp.controller('TheCtrl', function ($scope, Backand) {
         controls: 1,
         autoplay: 1
     };
-    Backand.on('play_video', function (data) {
+    Backand.on('playVideo', function (data) {
         //Get the 'items' object that have changed
         console.log(data);
         $scope.theBestVideo = data[0].Value;
