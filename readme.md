@@ -8,7 +8,7 @@ Project have two parts.
 First part is mobile side, based on [Ionic](www.ionicframework.com).
 It's a youtube search mobile application
 
-[Mobile Part](https://www.dropbox.com/s/ey0d2ofog11blol/Screenshot%202016-02-25%2020.00.19.png?raw=1)
+![Mobile Part](pics/mobile.png)
 
 To run this part you have to install first ionic cli, and on root folder run:
 
@@ -27,4 +27,9 @@ To run this part on "client" folder run
 live-serve
 </code>
 
+![Desktop Part](pics/desktop.png)
+
+
+After you run both parts, you should select a video in your mobile and be able to see it in your desktop.
+You have a youtube remote client very simple and very powerful based on [Backand](https://www.backand.com)
 Important notice: Don't open Backand.com and the application in same browser because we a have cookie issue, that will be solved in Backand sdk version 1.8.3
